@@ -1,0 +1,14 @@
+<!-- purplish_button.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Gradient background for purplish effect -->
+    <gradient
+        android:startColor="#D8BFD8"
+        android:endColor="#673AB7"
+        android:angle="45"/>
+
+    <!-- Rounded corners -->
+    <corners android:radius="30dp" />
+
+</shape>

@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/chat_bubble_rec"
+    android:padding="10dp"
+    android:layout_margin="10dp">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/profileImageView"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/default_profile_image"
+        app:shapeAppearanceOverlay="@style/circular"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="5dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="8dp"/>
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toEndOf="@id/profileImageView"
+        android:text="Username "
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTextView"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/profileImageView"
+        android:text="Message" />
+
+    <!-- Added TextView for displaying "(edited)" -->
+    <TextView
+        android:id="@+id/editedTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@id/usernameTextView"
+        android:layout_alignParentEnd="true"
+        android:text="(edited)"
+        android:textColor="#808080"
+        android:textSize="10sp"
+        android:visibility="visible" /> <!-- Initially hidden -->
+</RelativeLayout>

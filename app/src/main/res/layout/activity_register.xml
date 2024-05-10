@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/register"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan it up"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:textColor="#ffffff"/>
+
+        <EditText
+            android:id="@+id/usernameEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:hint="Username"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:hint="Email"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8" />
+
+        <EditText
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:textColorHint="#FFFBF8"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"/>
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Keep me signed in"
+            android:textColor="#FFFBF8"
+            android:layout_marginTop="10dp"
+            android:buttonTint="#FFFBF8"/>
+
+        <Button
+            android:id="@+id/registerButton"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/color"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF8" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:background="#3fff"
+            android:layout_marginTop="25dp"/>
+
+        <TextView
+            android:id="@+id/movebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already have an account? Sign in!"
+            android:padding="16dp"
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center"
+            android:clickable="true"
+            android:focusable="true"
+            android:textColor="@color/white"/>
+
+
+    </LinearLayout>
+</LinearLayout>

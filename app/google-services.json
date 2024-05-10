@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "662970972003",
+    "firebase_url": "https://planitup-d1d9d-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "planitup-d1d9d",
+    "storage_bucket": "planitup-d1d9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662970972003:android:b3d36944b96890d160c556",
+        "android_client_info": {
+          "package_name": "com.example.planitup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCflCqFqOVimhvcTXFaM-4BckIojttJ63o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

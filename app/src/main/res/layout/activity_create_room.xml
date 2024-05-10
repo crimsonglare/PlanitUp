@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/room"
+    android:alpha="0.9"
+    tools:context=".CreateRoomActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/circle"
+            android:gravity="center"
+            android:text="Plan it up"
+            android:textColor="#ffffff"
+            android:textSize="14sp" />
+        <EditText
+            android:id="@+id/roomNameEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:hint="Room Name"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8"
+            android:textSize="16sp" />
+z
+        <EditText
+            android:id="@+id/roomCodeEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Room Code"
+            android:textColorHint="#FFFBF8"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:textSize="16sp" />
+
+
+
+        <EditText
+            android:id="@+id/maxParticipantsEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:hint="Max Participants"
+            android:paddingLeft="15dp"
+            android:textColorHint="#FFFBF8"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/roomDescriptionEditText"
+            android:layout_width="250dp"
+            android:layout_height="40dp"
+            android:hint="Room Description"
+            android:textColorHint="#FFFBF8"
+            android:paddingLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/user"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/createRoomButton"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/purple"
+            android:text="Create Room"
+            android:textAllCaps="false"
+            android:textColor="#FFFBF8" />
+
+    </LinearLayout>
+</LinearLayout>
